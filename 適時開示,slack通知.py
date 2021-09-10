@@ -21,7 +21,7 @@ cursor.execute("""CREATE TABLE IF NOT EXISTS tekijikaiji(
                 company_url VARCHAR(300) CHARACTER SET utf8 COLLATE utf8_general_ci,
                 PRIMARY KEY (id));""")
 
-WEB_HOOK_URL= "https://hooks.slack.com/services/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"
+WEB_HOOK_URL= "WEB_HOOK_URL"
 
 #日付設定
 d_today = datetime.date.today()
